@@ -1,0 +1,111 @@
+
+#BG{
+background-color:#9B7A00;
+}
+#Wrap{
+  margin: auto;
+  width: 100vw;
+    overflow: hidden;
+}
+#box{
+color:white;
+  margin-left:100px;
+  width:340px;
+  float:left;
+   border-right: 1px solid #fff;
+}
+input[type="text"] {
+  background:none;
+    width:100px;
+  height:35px;
+  border:1px solid #fff;
+  text-align:center;
+  font-size:2rem;
+  font-family: 'Raleway', sans-serif;
+  color:white;
+}
+#Toinen{
+  display: flex;
+  color:white;
+  text-align:center;
+  height:100%;
+  width:100%;
+  border-right: 1px solid #fff;
+  font-size:2rem;
+  line-height:50px;
+  font-family: 'Dosis', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color:white;
+  font-size:px;
+  font-family: 'Dosis', sans-serif;
+  text-align:center;
+  font-size:4rem;
+  padding-top:30px;
+  padding-bottom:40px;
+  font-weight:1;
+}
+h2{
+  font-family: 'Dosis', sans-serif;
+  color:white;
+  text-align:center;
+  font-size:3rem;
+  padding-top:2.5rem;
+  font-weight:5;
+}
+ 
+#fuelcalculator{
+color:#fff;
+  font-size:50px;
+  line-height: 125%;
+  font-family: 'Dosis', sans-serif;
+}
+#submit{
+  color:#fff;
+  background:none;
+  border:1px solid #fff;
+margin-top:40px;
+  margin-left:90px;
+  font-size:6rem;
+  font-family: 'Dosis', sans-serif;
+ 
+}
+button:focus { outline: none; }
+.container {
+    margin-left:1px;
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    cursor: pointer;
+}
+ .credits{
+   font-size: 2rem;
+  text-align: center;
+  padding: 2.5rem 1rem;
+  margin-top: 1rem;
+  border-top: .1rem solid rgba(0,0,0,.4);
+  color:white;
+ }
+ .credits span{
+   color:white;
+ }
+ @media (max-width: 991px){
+  html{
+  font-size:100%;
+}
+#submit{
+  margin-left:290px;
+}
+@media (max-width: 450px){
+ html{
+ font-size: 50%;
+}
+#submit{
+  margin-left:90px;
+}
+}
+}
+
+
